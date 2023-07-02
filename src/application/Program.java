@@ -8,7 +8,7 @@ public class Program {
 		// TODO Auto-generated method stub
 		
 		Department obj = new Department(1, "Books");
-		System.out.println(teste);
+		System.out.println(obj);
 		
 
 	}
