@@ -1,6 +1,6 @@
 # Demo-dao-jdbc
 Ideia geral do padrão DAO:
- Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
+* Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade. Por exemplo:
 o Cliente: ClienteDao
 o Produto: ProdutoDao
