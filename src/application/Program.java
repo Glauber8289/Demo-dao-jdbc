@@ -11,13 +11,11 @@ public class Program {
 		
 
 		SellerDao sellerDao = DaoFactory.createSellerDao();
+		
+		System.out.println(" === Test 1 : seller findbyId ====");
+		
 		Seller seller = sellerDao.findById(3);
 		
-<<<<<<< HEAD
-=======
-		Seller seller = new Seller(21, "bob", "bob@gmail", new Date(), 3000.00, obj);
-		
->>>>>>> 24ec37d103fae216e689136718141c0e6370ec99
 		System.out.println(seller);
 		
  
