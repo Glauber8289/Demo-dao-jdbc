@@ -34,7 +34,7 @@ public class Program {
 			for(Seller obj : list) {
 				System.out.println(obj);
 				
-			System.out.println("\n=== Test 4 : seller Insert ====");
+			System.out.println("\n=== Test 4 : seller Insertt ====");
 			
 			Seller newseller = new Seller(null,"Jose dos santos", "jose@hotmail.com", new Date(), 4000.0, department);
 			sellerDao.insert(newseller);
