@@ -13,6 +13,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 
 		SellerDao sellerDao = DaoFactory.createSellerDao();
@@ -34,7 +35,7 @@ public class Program {
 			 list = sellerDao.findAll();
 			for(Seller obj : list) {
 				System.out.println(obj);
-				
+			}
 			System.out.println("\n=== Test 4 : seller Insertt ====");
 			
 			Seller newseller = new Seller(null,"Jose dos santos", "jose@hotmail.com", new Date(), 4000.0, department);
@@ -54,7 +55,7 @@ public class Program {
 			System.out.println("Exclusão completa");
 			sc.close();
 			
-		}
+			
 	
 	}
 
