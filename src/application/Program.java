@@ -48,7 +48,7 @@ public class Program {
 			sellerDao.update(seller);
 			System.out.println("Atualização completa");
 			
-			System.out.println("\n=== Test 6 : seller delete ====");
+			System.out.println("\n=== Test 6 : Seller delete ====");
 			System.out.println("Digite um id para realizarmos a exclusão ");
 			int id = sc.nextInt();
 			sellerDao.deleteById(id);
